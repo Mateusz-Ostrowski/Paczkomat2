@@ -6,17 +6,8 @@
 #define CARRENTAL_CLIENTREPOSITORY_H
 #include "Repository.h"
 #include "model/Client.h"
-#include "vector"
-#include "algorithm"
 
 class ClientRepository: public Repository<Client>{
-private:
-    std::vector<Client*>clients;
-public:
-    void add(Client *t) override;
-    void remove(Client *t) override;
-
-    virtual ~ClientRepository();
 };
 
 

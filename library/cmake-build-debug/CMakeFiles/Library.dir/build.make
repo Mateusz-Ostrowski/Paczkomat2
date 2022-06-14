@@ -224,19 +224,19 @@ CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorNotFoundException.cpp -o CMakeFiles\Library.dir\src\exception\DoorNotFoundException.cpp.s
 
-CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.obj: CMakeFiles/Library.dir/flags.make
-CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.obj: CMakeFiles/Library.dir/includes_CXX.rsp
-CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.obj: ../src/exception/ParcelNotFoundExeption.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ZzZ\CLionProjects\CarRental\library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\exception\ParcelNotFoundExeption.cpp.obj -c C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundExeption.cpp
+CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj: CMakeFiles/Library.dir/flags.make
+CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj: CMakeFiles/Library.dir/includes_CXX.rsp
+CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj: ../src/exception/ParcelNotFoundException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ZzZ\CLionProjects\CarRental\library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\exception\ParcelNotFoundException.cpp.obj -c C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundException.cpp
 
-CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundExeption.cpp > CMakeFiles\Library.dir\src\exception\ParcelNotFoundExeption.cpp.i
+CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundException.cpp > CMakeFiles\Library.dir\src\exception\ParcelNotFoundException.cpp.i
 
-CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundExeption.cpp -o CMakeFiles\Library.dir\src\exception\ParcelNotFoundExeption.cpp.s
+CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundException.cpp -o CMakeFiles\Library.dir\src\exception\ParcelNotFoundException.cpp.s
 
 CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj: CMakeFiles/Library.dir/flags.make
 CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj: CMakeFiles/Library.dir/includes_CXX.rsp
@@ -266,7 +266,7 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/manager/ClientManager.cpp.obj" \
 "CMakeFiles/Library.dir/src/manager/ParcelManager.cpp.obj" \
 "CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.obj" \
-"CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.obj" \
+"CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj" \
 "CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj"
 
 # External object files for target Library
@@ -284,7 +284,7 @@ libLibrary.a: CMakeFiles/Library.dir/src/manager/ParcelLockerManager.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/manager/ClientManager.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/manager/ParcelManager.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.obj
-libLibrary.a: CMakeFiles/Library.dir/src/exception/ParcelNotFoundExeption.cpp.obj
+libLibrary.a: CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/build.make
 libLibrary.a: CMakeFiles/Library.dir/link.txt

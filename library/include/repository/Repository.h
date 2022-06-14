@@ -4,12 +4,20 @@
 
 #ifndef CARRENTAL_REPOSITORY_H
 #define CARRENTAL_REPOSITORY_H
+#include <vector>
+#include <string>
+#include <algorithm>
 
 template<typename T>
 class Repository {
+protected:
+    std::vector<T*> vector;
 public:
-    virtual void add(T *t) = 0;
-    virtual void remove(T *t) = 0;
+    virtual void add(T *t);
+    virtual void remove(T *t);
+    virtual void save(std::string filePath);
+    virtual void load(std::string filePath);
+    virtual ~Repository();
 };
 
 

@@ -6,17 +6,12 @@
 #define CARRENTAL_PARCELREPOSITORY_H
 #include "Repository.h"
 #include "model/Parcel.h"
-#include "vector"
-#include "algorithm"
-
 class ParcelRepository: public Repository<Parcel>{
-private:
-    std::vector<Parcel*>parcels;
-public:
-    void add(Parcel *t) override;
-    void remove(Parcel *t) override;
-
-    virtual ~ParcelRepository();
+    virtual void add(Parcel *t);
+    virtual void remove(Parcel *t);
+    virtual void save(std::string filePath);
+    virtual void load(std::string filePath);
+    virtual ~Repository();
 };
 
 

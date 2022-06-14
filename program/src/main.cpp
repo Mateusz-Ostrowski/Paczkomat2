@@ -10,14 +10,30 @@
 //        Sprawdź, czy obecny koszt Wypożyczenia pozostał bez zmian
 
 
-#include <model/Client.h>
-#include <model/Parcel.h>
-#include <model/ParcelLocker.h>
+#include <manager/PersistenceManager.h>
 #include<iostream>
 
 int main()
 {
+    auto *parcelRepository = new ParcelRepository();
+    auto *parcelLockerRepository = new ParcelLockerRepository();
+    auto *clientRepository = new ClientRepository();
+    auto *persistenceManager =
+            new PersistenceManager("parcel.csv",
+                                   "client.csv",
+                                   "parcel_locker.csv",
+                                   "/",
+                                   parcelRepository,
+                                   clientRepository,
+                                   parcelLockerRepository);
+
+    persistenceManager->loadFromDisk();
     Parcel parcel("id",10,12,12,12,"2e",std::set<ParcelType>{WRAZLIWA_NA_WILGOTNOSC});
     std::cout << parcel.toString();
+    persistenceManager->saveToDisk();
+    delete parcelRepository;
+    delete parcelLockerRepository;
+    delete clientRepository;
+    delete persistenceManager;
     return 0;
 }

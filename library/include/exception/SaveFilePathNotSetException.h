@@ -5,9 +5,11 @@
 #ifndef PACZKOMAT_SAVEFILEPATHNOTSETEXCEPTION_H
 #define PACZKOMAT_SAVEFILEPATHNOTSETEXCEPTION_H
 
+#include <exception>
 
-class SaveFilePathNotSetException {
-
+class SaveFilePathNotSetException : public std::exception {
+public:
+    const char * what() const noexcept override;
 };
 
 

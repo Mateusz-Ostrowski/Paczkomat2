@@ -3,3 +3,7 @@
 //
 
 #include "SaveFilePathNotSetException.h"
+
+const char *SaveFilePathNotSetException::what() const noexcept {
+    return "Save file path not set";
+}

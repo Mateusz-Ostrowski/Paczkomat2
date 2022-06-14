@@ -11,7 +11,7 @@
 #include "Parcel.h"
 #include "exception/DoorNotFoundException.h"
 #include "exception/DoorOccupiedExeption.h"
-#include "exception/ParcelNotFoundExeption.h"
+#include "exception/ParcelNotFoundException.h"
 #include "algorithm"
 
 class ParcelLocker {

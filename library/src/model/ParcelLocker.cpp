@@ -56,5 +56,5 @@ void ParcelLocker::collectParcel(const std::string& code) {
             return;
         }
     }
-    throw ParcelNotFoundExeption(code,this);
+    throw ParcelNotFoundException(code,this);
 }

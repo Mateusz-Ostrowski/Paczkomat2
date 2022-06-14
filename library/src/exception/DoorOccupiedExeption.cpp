@@ -4,7 +4,8 @@
 
 #include "exception/DoorOccupiedExeption.h"
 
-DoorNotFoundException::DoorNotFoundException(const std::string &doorNumber): message(std::string("No door with number : ") + doorNumber){}
+DoorNotFoundException::DoorNotFoundException(const std::string &doorNumber, ParcelLocker *parcelLocker)
+: message(std::string("Door with number ") + doorNumber + " of "+parcelLocker->toString() + " already has parcel inside"){}
 
 const char * DoorNotFoundException::what() const noexcept {
     return message.c_str();
