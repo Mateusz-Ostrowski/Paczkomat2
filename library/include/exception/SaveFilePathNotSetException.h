@@ -1,0 +1,14 @@
+//
+// Created by Mateusz Ostrowski on 14/06/2022.
+//
+
+#ifndef PACZKOMAT_SAVEFILEPATHNOTSETEXCEPTION_H
+#define PACZKOMAT_SAVEFILEPATHNOTSETEXCEPTION_H
+
+
+class SaveFilePathNotSetException {
+
+};
+
+
+#endif //PACZKOMAT_SAVEFILEPATHNOTSETEXCEPTION_H
