@@ -7,11 +7,6 @@
 #include "Repository.h"
 #include "model/Parcel.h"
 class ParcelRepository: public Repository<Parcel>{
-    virtual void add(Parcel *t);
-    virtual void remove(Parcel *t);
-    virtual void save(std::string filePath);
-    virtual void load(std::string filePath);
-    virtual ~Repository();
 };
 
 

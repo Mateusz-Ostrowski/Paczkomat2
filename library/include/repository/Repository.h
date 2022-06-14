@@ -13,11 +13,29 @@ class Repository {
 protected:
     std::vector<T*> vector;
 public:
-    virtual void add(T *t);
-    virtual void remove(T *t);
-    virtual void save(std::string filePath);
-    virtual void load(std::string filePath);
-    virtual ~Repository();
+    void add(T *t) {
+        vector.push_back(t);
+    }
+
+    void remove(T *t) {
+        if (std::count(vector.begin(), vector.end(),t)) {
+            vector.erase(std::remove(vector.begin(), vector.end(),t), vector.end());
+        }
+    }
+
+    void load(std::string filePath) {
+
+    }
+
+    void save(std::string filePath) {
+
+    }
+
+    ~Repository() {
+        for(auto t : vector){
+            delete t;
+        }
+    }
 };
 
 
