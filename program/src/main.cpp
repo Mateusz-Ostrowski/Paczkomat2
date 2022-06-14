@@ -15,21 +15,34 @@
 
 int main()
 {
+    Client *client1 = new Client("Test","Testowski","+48700800900",1);
+    Client *client2 = new Client("Jan","Kowalski","+48700800901",2);
+
     auto *parcelRepository = new ParcelRepository();
     auto *parcelLockerRepository = new ParcelLockerRepository();
     auto *clientRepository = new ClientRepository();
+
     auto *persistenceManager =
             new PersistenceManager("parcel.csv",
                                    "client.csv",
                                    "parcel_locker.csv",
-                                   "/",
+                                   "C:\\Users\\ZzZ\\CLionProjects\\CarRental\\",
                                    parcelRepository,
                                    clientRepository,
                                    parcelLockerRepository);
 
+    auto *clientManager = new ClientManager(clientRepository);
     persistenceManager->loadFromDisk();
+
+    clientManager->add(client1);
+    clientManager->add(client2);
+
     Parcel parcel("id",10,12,12,12,"2e",std::set<ParcelType>{WRAZLIWA_NA_WILGOTNOSC});
     std::cout << parcel.toString();
+
+
+
+
     persistenceManager->saveToDisk();
     delete parcelRepository;
     delete parcelLockerRepository;

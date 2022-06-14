@@ -11,6 +11,7 @@ class ClientManager {
 private:
     ClientRepository *clientRepository;
 public:
+    ClientManager(ClientRepository *clientRepository);
     void remove(Client *client);
     void add(Client *client);
     void update(Client *client);

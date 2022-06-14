@@ -238,19 +238,19 @@ CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\ParcelNotFoundException.cpp -o CMakeFiles\Library.dir\src\exception\ParcelNotFoundException.cpp.s
 
-CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj: CMakeFiles/Library.dir/flags.make
-CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj: CMakeFiles/Library.dir/includes_CXX.rsp
-CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj: ../src/exception/DoorOccupiedExeption.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ZzZ\CLionProjects\CarRental\library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\exception\DoorOccupiedExeption.cpp.obj -c C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorOccupiedExeption.cpp
+CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj: CMakeFiles/Library.dir/flags.make
+CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj: CMakeFiles/Library.dir/includes_CXX.rsp
+CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj: ../src/exception/DoorOccupiedException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ZzZ\CLionProjects\CarRental\library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Library.dir\src\exception\DoorOccupiedException.cpp.obj -c C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorOccupiedException.cpp
 
-CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorOccupiedExeption.cpp > CMakeFiles\Library.dir\src\exception\DoorOccupiedExeption.cpp.i
+CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorOccupiedException.cpp > CMakeFiles\Library.dir\src\exception\DoorOccupiedException.cpp.i
 
-CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorOccupiedExeption.cpp -o CMakeFiles\Library.dir\src\exception\DoorOccupiedExeption.cpp.s
+CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ZzZ\CLionProjects\CarRental\library\src\exception\DoorOccupiedException.cpp -o CMakeFiles\Library.dir\src\exception\DoorOccupiedException.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -267,7 +267,7 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/manager/ParcelManager.cpp.obj" \
 "CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.obj" \
 "CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj" \
-"CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj"
+"CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -285,7 +285,7 @@ libLibrary.a: CMakeFiles/Library.dir/src/manager/ClientManager.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/manager/ParcelManager.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/src/exception/ParcelNotFoundException.cpp.obj
-libLibrary.a: CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj
+libLibrary.a: CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj
 libLibrary.a: CMakeFiles/Library.dir/build.make
 libLibrary.a: CMakeFiles/Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ZzZ\CLionProjects\CarRental\library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libLibrary.a"

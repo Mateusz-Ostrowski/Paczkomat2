@@ -7,6 +7,10 @@
 #include "Repository.h"
 #include "model/Parcel.h"
 class ParcelRepository: public Repository<Parcel>{
+public:
+    void load(const std::string& filePath) override;
+
+    void save(const std::string& filePath) override;
 };
 
 

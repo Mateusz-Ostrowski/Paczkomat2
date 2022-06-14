@@ -2,7 +2,15 @@
 // Created by Piotr on 13/06/2022.
 //
 
+#include <manager/ClientManager.h>
+
 #include "manager/ClientManager.h"
+
+
+ClientManager::ClientManager(ClientRepository *clientRepository) : clientRepository(clientRepository){
+
+}
+
 
 void ClientManager::remove(Client *client) {
     clientRepository->remove(client);

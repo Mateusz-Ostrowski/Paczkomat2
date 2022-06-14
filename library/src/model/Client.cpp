@@ -5,6 +5,7 @@
 #include "model/Client.h"
 
 #include <utility>
+#include <model/Client.h>
 
 
 const std::string &Client::getFirstName() const {
@@ -42,6 +43,4 @@ const std::string &Client::getPhoneNumber() const {
 int Client::getId() const {
     return id;
 }
-
-
 

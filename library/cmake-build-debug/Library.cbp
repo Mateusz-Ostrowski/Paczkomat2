@@ -95,7 +95,7 @@
 		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/include/exception/DoorNotFoundException.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/include/exception/DoorOccupiedExeption.h">
+		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/include/exception/DoorOccupiedException.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/include/exception/ParcelNotFoundException.h">
@@ -134,7 +134,7 @@
 		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/src/exception/DoorNotFoundException.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/src/exception/DoorOccupiedExeption.cpp">
+		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/src/exception/DoorOccupiedException.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="C:/Users/ZzZ/CLionProjects/CarRental/library/src/exception/ParcelNotFoundException.cpp">

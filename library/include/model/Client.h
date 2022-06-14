@@ -35,7 +35,7 @@ public:
 
     virtual ~Client();
 
-
+    std::string toString();
 };
 
 

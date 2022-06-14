@@ -4,15 +4,17 @@
 
 #ifndef CARRENTAL_PARCELLOCKER_H
 #define CARRENTAL_PARCELLOCKER_H
+#include <unordered_map>
+#include <algorithm>
+#include <iostream>
 #include <model/Client.h>
 #include <model/Parcel.h>
 #include "Address.h"
-#include "unordered_map"
 #include "Parcel.h"
 #include "exception/DoorNotFoundException.h"
-#include "exception/DoorOccupiedExeption.h"
+#include "exception/DoorOccupiedException.h"
 #include "exception/ParcelNotFoundException.h"
-#include "algorithm"
+
 
 class ParcelLocker {
 private:

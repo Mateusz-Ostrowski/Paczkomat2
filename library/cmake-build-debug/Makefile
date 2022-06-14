@@ -160,32 +160,32 @@ src/exception/DoorNotFoundException.cpp.s:
 	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorNotFoundException.cpp.s
 .PHONY : src/exception/DoorNotFoundException.cpp.s
 
-src/exception/DoorOccupiedExeption.obj: src/exception/DoorOccupiedExeption.cpp.obj
+src/exception/DoorOccupiedException.obj: src/exception/DoorOccupiedException.cpp.obj
 
-.PHONY : src/exception/DoorOccupiedExeption.obj
+.PHONY : src/exception/DoorOccupiedException.obj
 
 # target to build an object file
-src/exception/DoorOccupiedExeption.cpp.obj:
-	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.obj
-.PHONY : src/exception/DoorOccupiedExeption.cpp.obj
+src/exception/DoorOccupiedException.cpp.obj:
+	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.obj
+.PHONY : src/exception/DoorOccupiedException.cpp.obj
 
-src/exception/DoorOccupiedExeption.i: src/exception/DoorOccupiedExeption.cpp.i
+src/exception/DoorOccupiedException.i: src/exception/DoorOccupiedException.cpp.i
 
-.PHONY : src/exception/DoorOccupiedExeption.i
+.PHONY : src/exception/DoorOccupiedException.i
 
 # target to preprocess a source file
-src/exception/DoorOccupiedExeption.cpp.i:
-	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.i
-.PHONY : src/exception/DoorOccupiedExeption.cpp.i
+src/exception/DoorOccupiedException.cpp.i:
+	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.i
+.PHONY : src/exception/DoorOccupiedException.cpp.i
 
-src/exception/DoorOccupiedExeption.s: src/exception/DoorOccupiedExeption.cpp.s
+src/exception/DoorOccupiedException.s: src/exception/DoorOccupiedException.cpp.s
 
-.PHONY : src/exception/DoorOccupiedExeption.s
+.PHONY : src/exception/DoorOccupiedException.s
 
 # target to generate assembly for a file
-src/exception/DoorOccupiedExeption.cpp.s:
-	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorOccupiedExeption.cpp.s
-.PHONY : src/exception/DoorOccupiedExeption.cpp.s
+src/exception/DoorOccupiedException.cpp.s:
+	$(MAKE) -f CMakeFiles\Library.dir\build.make CMakeFiles/Library.dir/src/exception/DoorOccupiedException.cpp.s
+.PHONY : src/exception/DoorOccupiedException.cpp.s
 
 src/exception/ParcelNotFoundExeption.obj: src/exception/ParcelNotFoundExeption.cpp.obj
 
@@ -524,9 +524,9 @@ help:
 	@echo ... src/exception/DoorNotFoundException.obj
 	@echo ... src/exception/DoorNotFoundException.i
 	@echo ... src/exception/DoorNotFoundException.s
-	@echo ... src/exception/DoorOccupiedExeption.obj
-	@echo ... src/exception/DoorOccupiedExeption.i
-	@echo ... src/exception/DoorOccupiedExeption.s
+	@echo ... src/exception/DoorOccupiedException.obj
+	@echo ... src/exception/DoorOccupiedException.i
+	@echo ... src/exception/DoorOccupiedException.s
 	@echo ... src/exception/ParcelNotFoundExeption.obj
 	@echo ... src/exception/ParcelNotFoundExeption.i
 	@echo ... src/exception/ParcelNotFoundExeption.s

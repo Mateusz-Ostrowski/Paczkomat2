@@ -7,31 +7,28 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-
+#include <fstream>
+#include <iostream>
 template<typename T>
 class Repository {
 protected:
     std::vector<T*> vector;
 public:
-    void add(T *t) {
+    virtual void add(T *t) {
         vector.push_back(t);
     }
 
-    void remove(T *t) {
+    virtual void remove(T *t) {
         if (std::count(vector.begin(), vector.end(),t)) {
             vector.erase(std::remove(vector.begin(), vector.end(),t), vector.end());
         }
     }
 
-    void load(std::string filePath) {
+    virtual void load(const std::string& filePath) = 0;
 
-    }
+    virtual void save(const std::string& filePath) = 0;
 
-    void save(std::string filePath) {
-
-    }
-
-    ~Repository() {
+    virtual ~Repository() {
         for(auto t : vector){
             delete t;
         }

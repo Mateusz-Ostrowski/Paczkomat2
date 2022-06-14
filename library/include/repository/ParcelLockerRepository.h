@@ -8,6 +8,10 @@
 #include "model/ParcelLocker.h"
 
 class ParcelLockerRepository: public Repository<ParcelLocker>{
+public:
+    void load(const std::string& filePath) override;
+
+    void save(const std::string& filePath) override;
 };
 
 

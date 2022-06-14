@@ -7,7 +7,12 @@
 #include "Repository.h"
 #include "model/Client.h"
 
-class ClientRepository: public Repository<Client>{
+class ClientRepository: public Repository<Client> {
+public:
+    void load(const std::string &filePath) override;
+
+    void save(const std::string &filePath) override;
+
 };
 
 

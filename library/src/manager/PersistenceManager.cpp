@@ -8,15 +8,15 @@
 
 void PersistenceManager::loadFromDisk() {
     parcelRepository->load(saveDirectory+""+parcelFileName);
-    parcelLockerManager->load(saveDirectory+""+parcelFileName);
-    clientRepository->load(saveDirectory+""+parcelFileName);
+    parcelLockerManager->load(saveDirectory+""+parcelLockerFileName);
+    clientRepository->load(saveDirectory+""+clientFileName);
 
 }
 
 void PersistenceManager::saveToDisk() {
     parcelRepository->save(saveDirectory+""+parcelFileName);
-    parcelLockerManager->save(saveDirectory+""+parcelFileName);
-    clientRepository->save(saveDirectory+""+parcelFileName);
+    parcelLockerManager->save(saveDirectory+""+parcelLockerFileName);
+    clientRepository->save(saveDirectory+""+clientFileName);
 }
 
 PersistenceManager::PersistenceManager(std::string parcelFileName, std::string clientFileName,

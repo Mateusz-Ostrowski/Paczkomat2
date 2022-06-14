@@ -5,6 +5,9 @@
 #include "model/ParcelLocker.h"
 
 #include <utility>
+#include "sstream"
+#include <model/ParcelLocker.h>
+
 
 ParcelLocker::ParcelLocker(Address *address, std::string  id):id(std::move(id)),address(address) {
     doorParcelMap.insert(std::pair<std::string, Parcel*>("1a", nullptr));
@@ -44,7 +47,7 @@ void ParcelLocker::addParcel(const std::string& door, Parcel *parcel) {
     if(doorParcelMap.count(door) == 0) {
         throw DoorNotFoundException(door,this);
     } if (doorParcelMap.find(door) == doorParcelMap.end()) {
-        throw DoorOccupiedExeption(door,this);
+        throw DoorOccupiedException(door,this);
     }
     doorParcelMap.insert(std::pair<std::string, Parcel*>(door,parcel));
 }
@@ -57,4 +60,13 @@ void ParcelLocker::collectParcel(const std::string& code) {
         }
     }
     throw ParcelNotFoundException(code,this);
+}
+
+std::string ParcelLocker::toString() {
+    std::stringstream out;
+    out << "ParcelLocker: id " << id << ", " << getAddress()->getAddressInfo();
+    for(auto p : doorParcelMap){
+
+    }
+    return out.str();
 }
